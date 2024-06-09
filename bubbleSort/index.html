@@ -3,7 +3,22 @@
     <head>
         <meta charset='utf-8'>
         <script>
-            
+            let numArray = [15, 89, 23, 64, 28, 49, 10, 43, 73, 26];
+
+            for (let i = 0; i < 5; i++) {
+                for (let i = 0; i < numArray.length; i++) {
+                    if (numArray[i] > numArray[i + 1]) {
+                        num1 = numArray[i];
+                        num2 = numArray[i + 1];
+                        numArray[i] = num2;
+                        numArray[i + 1] = num1;
+                    } else {
+                        continue;
+                    }
+                }
+            }
+
+            console.log(numArray);
         </script>
     </head>
 
