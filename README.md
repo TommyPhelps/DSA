@@ -1,2 +1,2 @@
-# DSA-JS
-Making Data Structures and algorithms in JS
+# DSA
+Making Data Structures and algorithms in various languages.
